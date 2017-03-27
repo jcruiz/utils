@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<folders>
+    <folder>
+        <title>terminal</title>
+        <snippets>
+            <snippet>
+                <title>AvgTimeStamp w/cUrl</title>
+                <content>time for i in {1..100}; do curl -v http://www.site.com/; done</content>
+            </snippet>
+            <snippet>
+                <title>individual</title>
+                <content>time for i in {1..10}; do echo '#'$i; curl -o /dev/null -s -w %{time_total}\\n "http://mjuanca10959.vps.jcruiz.co.moovapp.com/"; done;</content>
+            </snippet>
+            <snippet>
+                <title>port80</title>
+                <content>sudo lsof -i ':80' | grep LISTEN</content>
+            </snippet>
+            <snippet>
+                <title>Modifyin Headers</title>
+                <content>curl -v -o /dev/null jnj.com -H "Accept-Encoding: gzip" -L</content>
+            </snippet>
+            <snippet>
+                <title>Batch Rename</title>
+                <content>for f in * ; do mv "$f" "local-debugging_$f" ; done</content>
+            </snippet>
+            <snippet>
+                <title>passes 302</title>
+                <content>curl -v -o /dev/null jnj.com -H "Accept-Encoding: gzip" -L</content>
+            </snippet>
+            <snippet>
+                <title>Test split on mode</title>
+                <content>while true ; do  curl -s -D - -o /dev/null https://m.shop.harborfreight.com | egrep "X-[S|Q]." ; done</content>
+            </snippet>
+            <snippet>
+                <title>search past commands</title>
+                <content>grep "node" ~/.zsh_history</content>
+            </snippet>
+            <snippet>
+                <title>remote debugging for FF</title>
+                <content>adb forward tcp:6000 localfilesystem:/data/data/org.mozilla.firefox/firefox-debugger-socket</content>
+            </snippet>
+        </snippets>
+    </folder>
+    <folder>
+        <title>regexp</title>
+        <snippets>
+            <snippet>
+                <title>searchAllEmptyLines</title>
+                <content>^(?:[\t ]*(?:\r?\n|\r))+</content>
+            </snippet>
+        </snippets>
+    </folder>
+    <folder>
+        <title>emojis</title>
+        <snippets>
+            <snippet>
+                <title>sadface</title>
+                <content>(ಥ_ಥ)</content>
+            </snippet>
+            <snippet>
+                <title>happycamper</title>
+                <content>ᕙ༼ಠ͜ʖಠ༽ノ</content>
+            </snippet>
+            <snippet>
+                <title>crymeariver</title>
+                <content>(;´༎ຶД༎ຶ`)</content>
+            </snippet>
+            <snippet>
+                <title>happychiken</title>
+                <content>╮(￣▽￣")╭</content>
+            </snippet>
+            <snippet>
+                <title>inshock</title>
+                <content>( ⊙ o ⊙ )</content>
+            </snippet>
+            <snippet>
+                <title>smilingatthestars</title>
+                <content>(≖ ‿ ≖)</content>
+            </snippet>
+            <snippet>
+                <title>runtohug</title>
+                <content>ε = = (づ′▽`)づ</content>
+            </snippet>
+            <snippet>
+                <title>fightingmode</title>
+                <content>(ง •̀_•́)ง</content>
+            </snippet>
+            <snippet>
+                <title>focusedmode</title>
+                <content>(๑•̀ㅂ•́) ✧</content>
+            </snippet>
+        </snippets>
+    </folder>
+    <folder>
+        <title>russian</title>
+        <snippets>
+            <snippet>
+                <title>thank you</title>
+                <content>спасибо</content>
+            </snippet>
+            <snippet>
+                <title>hi</title>
+                <content>Привет</content>
+            </snippet>
+            <snippet>
+                <title>your welcome</title>
+                <content>Пожалуйста</content>
+            </snippet>
+            <snippet>
+                <title>great</title>
+                <content>Отлично!</content>
+            </snippet>
+        </snippets>
+    </folder>
+</folders>
