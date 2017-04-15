@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <folders>
     <folder>
         <title>terminal</title>
@@ -68,6 +68,10 @@
             <snippet>
                 <title>happychiken</title>
                 <content>╮(￣▽￣")╭</content>
+            </snippet>
+            <snippet>
+                <title>happy2</title>
+                <content>⸜(* ॑꒳ ॑* )⸝</content>
             </snippet>
             <snippet>
                 <title>inshock</title>
